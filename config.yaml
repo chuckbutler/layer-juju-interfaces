@@ -1,0 +1,6 @@
+options:
+  enable-nightly-dump:
+    type: boolean
+    default: True
+    description: "Enable nightly mongodb dumps to disk"
+

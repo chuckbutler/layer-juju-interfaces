@@ -1,0 +1,15 @@
+name: juju-interfaces
+summary: Deploy the juju interfaces webservice
+maintainers:
+  - Charles Butler <charles.butler@canonical.com>
+  - Ben Saller <benjamin.saller@canonical.com>
+  - Cory Johns <cory.johns@canonical.com>
+description: |
+  Deploys the application container for the Juju Interfaces webservice,
+  and a MongoDB application container along side.
+tags:
+  - application
+subordinate: false
+provides:
+ website: 
+    interface: http
